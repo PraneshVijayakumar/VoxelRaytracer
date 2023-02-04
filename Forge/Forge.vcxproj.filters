@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{13c8db78-9b89-4dea-b019-bdddbada5487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform">
+      <UniqueIdentifier>{b8629a2d-c248-42fe-9f07-bb025797f438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform\Windows">
+      <UniqueIdentifier>{217e006e-2a2e-4ff3-89b8-8a2876ae1a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core">
+      <UniqueIdentifier>{69e4e5f1-586d-4fd7-ae47-14689be21971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Containers">
+      <UniqueIdentifier>{fb846055-f95e-4a25-875b-2e421aeffcc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Math">
+      <UniqueIdentifier>{875aad62-6612-4565-a29e-ae20a99f6c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform\Windows\FileEditors">
+      <UniqueIdentifier>{d057757d-c6d0-48a3-9fe6-fb07acf984d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Commands">
+      <UniqueIdentifier>{487000ee-b506-4210-8f8e-3479746997bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform\OpenCL">
+      <UniqueIdentifier>{29af9ef0-4f66-4454-b4c0-2ca1be84ec0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Platform\Windows\Threading">
+      <UniqueIdentifier>{aff38c01-a1c6-4b7f-9057-2baf0f5679b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Random">
+      <UniqueIdentifier>{8178e466-2cdb-41c2-b11d-401448041e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Random\Hashing">
+      <UniqueIdentifier>{4cd81a6c-03bf-4437-9a3f-265db0bd37e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Core\Random\Noise">
+      <UniqueIdentifier>{28448351-a777-4492-b0af-c0f4cc1d3e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForgeData">
+      <UniqueIdentifier>{76fa5f6b-a10a-4769-9ad4-9f5f67f38661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForgeData\OpenCL">
+      <UniqueIdentifier>{c450c909-4ed3-4934-9d56-babab52b4b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForgeData\OpenCL\Include">
+      <UniqueIdentifier>{53bc2646-26e4-4e37-a459-2912b8b562f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Platform\Windows\Window.cpp">
+      <Filter>Source\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Windows\Timer.cpp">
+      <Filter>Source\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Windows\Framebuffer.cpp">
+      <Filter>Source\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Math\Matrix3x3.cpp">
+      <Filter>Source\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Math\Vector3.cpp">
+      <Filter>Source\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Windows\FileEditors\TextFileEditor.cpp">
+      <Filter>Source\Platform\Windows\FileEditors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Math\IntersectionTests.cpp">
+      <Filter>Source\Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\Commands\CommandsManager.cpp">
+      <Filter>Source\Core\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\OpenCL\OpenCLManager.cpp">
+      <Filter>Source\Platform\OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\OpenCL\OpenCLKernel.cpp">
+      <Filter>Source\Platform\OpenCL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Platform\Windows\Window.h">
+      <Filter>Source\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\WindowsLogging.h">
+      <Filter>Source\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Forge.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Logging.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\Timer.h">
+      <Filter>Source\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Containers\ResizableArray.h">
+      <Filter>Source\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\MathUtility.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Utility.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\Framebuffer.h">
+      <Filter>Source\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\Vector3.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\Matrix3x3.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\Ray.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\Orientation.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\CoordinateSpace.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\NumericTypeInfo.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Event.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\Input.h">
+      <Filter>Source\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\AABB.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Color.h">
+      <Filter>Source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\IntegerVector3.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Containers\LinkedList.h">
+      <Filter>Source\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\FileEditors\FileEditor.h">
+      <Filter>Source\Platform\Windows\FileEditors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\FileEditors\TextFileEditor.h">
+      <Filter>Source\Platform\Windows\FileEditors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\IntersectionTests.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\Plane.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Commands\Command.h">
+      <Filter>Source\Core\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Commands\CommandsManager.h">
+      <Filter>Source\Core\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\OpenCL\OpenCLLogging.h">
+      <Filter>Source\Platform\OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\OpenCL\OpenCLUtility.h">
+      <Filter>Source\Platform\OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\IntegerVector2.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\OpenCL\OpenCLKernel.h">
+      <Filter>Source\Platform\OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\OpenCL\OpenCLManager.h">
+      <Filter>Source\Platform\OpenCL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\Threading\Mutex.h">
+      <Filter>Source\Platform\Windows\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\Threading\Thread.h">
+      <Filter>Source\Platform\Windows\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Containers\DynamicArray.h">
+      <Filter>Source\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Math\Vector2.h">
+      <Filter>Source\Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\Threading\Signal.h">
+      <Filter>Source\Platform\Windows\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\Assert.h" />
+    <ClInclude Include="Source\Platform\Windows\ForgeWindowsHeader.h" />
+    <ClInclude Include="Source\Core\Containers\Queue.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ForgeData\OpenCL\Include\Utility.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\IntersectionTests.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\Random.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\AABB.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\Ray.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\Sphere.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+  </ItemGroup>
+</Project>

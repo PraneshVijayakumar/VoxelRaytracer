@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ForgeData">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{333fc234-d422-414a-a954-15eae1ef97a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Program">
+      <UniqueIdentifier>{413f0e31-2037-44da-8c34-a972518f6bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rendering">
+      <UniqueIdentifier>{e01f00d9-d8ae-4f97-aa2f-af985873b080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Program\Editor">
+      <UniqueIdentifier>{e8433dfb-cdb3-4f65-ab0f-1853d6b967c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Program\WorldGenerator">
+      <UniqueIdentifier>{d5483514-67ea-49fe-afc7-08f31e8b8e71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Program\Editor\EditorCommands">
+      <UniqueIdentifier>{cd634bd7-ebb5-49f6-b466-0a48df0281d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Program\Editor\EditorTools">
+      <UniqueIdentifier>{2bbec97e-dac5-4d3d-a4fb-7b065321e3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Program\WorldGenerator\Kernels">
+      <UniqueIdentifier>{b76bb540-9af7-431f-9764-a736140dd0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rendering\LoadingScreenRenderer">
+      <UniqueIdentifier>{0a6038e1-46a0-4a48-ab34-b8ef37ce6774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rendering\OpenCLRenderer">
+      <UniqueIdentifier>{ba49cf7b-259b-4627-8905-28a9b7fd3e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Rendering\OpenCLRenderer\Kernels">
+      <UniqueIdentifier>{b19fc538-6e7c-43a4-8bb8-7c5b18bbc84c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForgeData\OpenCL">
+      <UniqueIdentifier>{e36cc4a4-b57f-4d50-8cbe-8c6e2b8c82ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForgeData\OpenCL\Include">
+      <UniqueIdentifier>{d58c8fa8-e584-42a6-8976-6484adb817fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForgeData\OpenCL\Kernels">
+      <UniqueIdentifier>{151f3259-d186-4bb1-9dde-e11e929e5422}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Rendering\OpenCLRenderer\Kernels\DirtTextureKernel.h">
+      <Filter>Source\Rendering\OpenCLRenderer\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\OpenCLRenderer\Kernels\RenderPixelKernel.h">
+      <Filter>Source\Rendering\OpenCLRenderer\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\OpenCLRenderer\OpenCLRenderer.h">
+      <Filter>Source\Rendering\OpenCLRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\LoadingScreenRenderer\LineDrawing.h">
+      <Filter>Source\Rendering\LoadingScreenRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\LoadingScreenRenderer\LoadingScreenRenderer.h">
+      <Filter>Source\Rendering\LoadingScreenRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rendering\DebugAABBData.h">
+      <Filter>Source\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\Camera.h">
+      <Filter>Source\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\FPSCounter.h">
+      <Filter>Source\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\Program.h">
+      <Filter>Source\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\ProgramIntersectionTests.h">
+      <Filter>Source\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\VoxelData.h">
+      <Filter>Source\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\VoxelGrid.h">
+      <Filter>Source\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\WorldGenerator\Kernels\GenerateNodeKernel.h">
+      <Filter>Source\Program\WorldGenerator\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\WorldGenerator\Kernels\WorldGeneratorKernel.h">
+      <Filter>Source\Program\WorldGenerator\Kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\Editor\Editor.h">
+      <Filter>Source\Program\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\Editor\EditorCommands\SetVoxelsEditorCommand.h">
+      <Filter>Source\Program\Editor\EditorCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\Editor\EditorTools\BlockEditTool.h">
+      <Filter>Source\Program\Editor\EditorTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\Editor\EditorTools\EditorTool.h">
+      <Filter>Source\Program\Editor\EditorTools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Program\Editor\EditorTools\RectangleEditTool.h">
+      <Filter>Source\Program\Editor\EditorTools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Rendering\OpenCLRenderer\OpenCLRenderer.cpp">
+      <Filter>Source\Rendering\OpenCLRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\LoadingScreenRenderer\LineDrawing.cpp">
+      <Filter>Source\Rendering\LoadingScreenRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rendering\LoadingScreenRenderer\LoadingScreenRenderer.cpp">
+      <Filter>Source\Rendering\LoadingScreenRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main\main.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program\Camera.cpp">
+      <Filter>Source\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program\Program.cpp">
+      <Filter>Source\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program\ProgramIntersectionTests.cpp">
+      <Filter>Source\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program\VoxelGrid.cpp">
+      <Filter>Source\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program\Editor\Editor.cpp">
+      <Filter>Source\Program\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program\Editor\EditorCommands\SetVoxelsEditorCommand.cpp">
+      <Filter>Source\Program\Editor\EditorCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program\Editor\EditorTools\BlockEditTool.cpp">
+      <Filter>Source\Program\Editor\EditorTools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Program\Editor\EditorTools\RectangleEditTool.cpp">
+      <Filter>Source\Program\Editor\EditorTools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ForgeData\OpenCL\Kernels\DirtTexture.cl">
+      <Filter>ForgeData\OpenCL\Kernels</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Kernels\GenerateNode.cl">
+      <Filter>ForgeData\OpenCL\Kernels</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Kernels\GenerateVoxel.cl">
+      <Filter>ForgeData\OpenCL\Kernels</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Kernels\Renderer.cl">
+      <Filter>ForgeData\OpenCL\Kernels</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\ProgramIntersectionTests.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\Texture.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\Voxel.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+    <None Include="ForgeData\OpenCL\Include\VoxelUtility.cl">
+      <Filter>ForgeData\OpenCL\Include</Filter>
+    </None>
+  </ItemGroup>
+</Project>
